@@ -23,7 +23,3 @@ export const QuestionAnswer = styled.li`
 export const Question = styled.h2`
   color: #111;
 `;
-
-export const Answer = styled.h3`
-  color: red;
-`;

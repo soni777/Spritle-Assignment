@@ -5,8 +5,8 @@ specifiers:
   '@testing-library/react': ^13.4.0
   '@testing-library/user-event': ^13.5.0
   js-cookie: ^3.0.1
-  react: ^18.2.0
-  react-dom: ^18.2.0
+  react: 17.0.1
+  react-dom: 17.0.1
   react-router-dom: 5.0.0
   react-scripts: 5.0.1
   styled-components: ^5.3.6
@@ -15,14 +15,14 @@ specifiers:
 
 dependencies:
   '@testing-library/jest-dom': 5.16.5
-  '@testing-library/react': 13.4.0_react-dom@18.2.0+react@18.2.0
+  '@testing-library/react': 13.4.0_react-dom@17.0.1+react@17.0.1
   '@testing-library/user-event': 13.5.0
   js-cookie: 3.0.1
-  react: 18.2.0
-  react-dom: 18.2.0_react@18.2.0
-  react-router-dom: 5.0.0_react@18.2.0
-  react-scripts: 5.0.1_react@18.2.0
-  styled-components: 5.3.6_react-dom@18.2.0+react@18.2.0
+  react: 17.0.1
+  react-dom: 17.0.1_react@17.0.1
+  react-router-dom: 5.0.0_react@17.0.1
+  react-scripts: 5.0.1_react@17.0.1
+  styled-components: 5.3.6_react-dom@17.0.1+react@17.0.1
   uuid: 9.0.0
   web-vitals: 2.1.4
 
@@ -2260,7 +2260,7 @@ packages:
       redent: 3.0.0
     dev: false
 
-  /@testing-library/react/13.4.0_react-dom@18.2.0+react@18.2.0:
+  /@testing-library/react/13.4.0_react-dom@17.0.1+react@17.0.1:
     resolution: {integrity: sha512-sXOGON+WNTh3MLE9rve97ftaZukN3oNf2KjDy7YTx6hcTO2uuLHuCGynMDhFwGw/jYf4OJ2Qk0i4i79qMNNkyw==}
     engines: {node: '>=12'}
     peerDependencies:
@@ -2270,8 +2270,8 @@ packages:
       '@babel/runtime': 7.20.13
       '@testing-library/dom': 8.20.0
       '@types/react-dom': 18.0.10
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
+      react: 17.0.1
+      react-dom: 17.0.1_react@17.0.1
     dev: false
 
   /@testing-library/user-event/13.5.0:
@@ -3248,7 +3248,7 @@ packages:
       babel-plugin-syntax-jsx: 6.18.0
       lodash: 4.17.21
       picomatch: 2.3.1
-      styled-components: 5.3.6_react-dom@18.2.0+react@18.2.0
+      styled-components: 5.3.6_react-dom@17.0.1+react@17.0.1
     dev: false
 
   /babel-plugin-syntax-jsx/6.18.0:
@@ -3760,7 +3760,7 @@ packages:
       yaml: 1.10.2
     dev: false
 
-  /create-react-context/0.2.3_prop-types@15.8.1+react@18.2.0:
+  /create-react-context/0.2.3_prop-types@15.8.1+react@17.0.1:
     resolution: {integrity: sha512-CQBmD0+QGgTaxDL3OX1IDXYqjkp2It4RIbcb99jS6AEg27Ga+a9G3JtK6SIu0HBwPLZlmwt9F7UwWA4Bn92Rag==}
     peerDependencies:
       prop-types: ^15.0.0
@@ -3769,7 +3769,7 @@ packages:
       fbjs: 0.8.18
       gud: 1.0.0
       prop-types: 15.8.1
-      react: 18.2.0
+      react: 17.0.1
     dev: false
 
   /cross-spawn/7.0.3:
@@ -8397,14 +8397,15 @@ packages:
       - webpack
     dev: false
 
-  /react-dom/18.2.0_react@18.2.0:
-    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
+  /react-dom/17.0.1_react@17.0.1:
+    resolution: {integrity: sha512-6eV150oJZ9U2t9svnsspTMrWNyHc6chX0KzDeAOXftRa8bNeOKTTfCJ7KorIwenkHd2xqVTBTCZd79yk/lx/Ug==}
     peerDependencies:
-      react: ^18.2.0
+      react: 17.0.1
     dependencies:
       loose-envify: 1.4.0
-      react: 18.2.0
-      scheduler: 0.23.0
+      object-assign: 4.1.1
+      react: 17.0.1
+      scheduler: 0.20.2
     dev: false
 
   /react-error-overlay/6.0.11:
@@ -8428,7 +8429,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /react-router-dom/5.0.0_react@18.2.0:
+  /react-router-dom/5.0.0_react@17.0.1:
     resolution: {integrity: sha512-wSpja5g9kh5dIteZT3tUoggjnsa+TPFHSMrpHXMpFsaHhQkm/JNVGh2jiF9Dkh4+duj4MKCkwO6H08u6inZYgQ==}
     peerDependencies:
       react: '>=15'
@@ -8437,31 +8438,31 @@ packages:
       history: 4.10.1
       loose-envify: 1.4.0
       prop-types: 15.8.1
-      react: 18.2.0
-      react-router: 5.0.0_react@18.2.0
+      react: 17.0.1
+      react-router: 5.0.0_react@17.0.1
       tiny-invariant: 1.3.1
       tiny-warning: 1.0.3
     dev: false
 
-  /react-router/5.0.0_react@18.2.0:
+  /react-router/5.0.0_react@17.0.1:
     resolution: {integrity: sha512-6EQDakGdLG/it2x9EaCt9ZpEEPxnd0OCLBHQ1AcITAAx7nCnyvnzf76jKWG1s2/oJ7SSviUgfWHofdYljFexsA==}
     peerDependencies:
       react: '>=15'
     dependencies:
       '@babel/runtime': 7.20.13
-      create-react-context: 0.2.3_prop-types@15.8.1+react@18.2.0
+      create-react-context: 0.2.3_prop-types@15.8.1+react@17.0.1
       history: 4.10.1
       hoist-non-react-statics: 3.3.2
       loose-envify: 1.4.0
       path-to-regexp: 1.8.0
       prop-types: 15.8.1
-      react: 18.2.0
+      react: 17.0.1
       react-is: 16.13.1
       tiny-invariant: 1.3.1
       tiny-warning: 1.0.3
     dev: false
 
-  /react-scripts/5.0.1_react@18.2.0:
+  /react-scripts/5.0.1_react@17.0.1:
     resolution: {integrity: sha512-8VAmEm/ZAwQzJ+GOMLbBsTdDKOpuZh7RPs0UymvBR2vRk4iZWCskjbFnxqjrzoIvlNNRZ3QJFx6/qDSi6zSnaQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -8504,7 +8505,7 @@ packages:
       postcss-normalize: 10.0.1_4c5efe188e0429d1e746880ca12b2d0f
       postcss-preset-env: 7.8.3_postcss@8.4.21
       prompts: 2.4.2
-      react: 18.2.0
+      react: 17.0.1
       react-app-polyfill: 3.0.0
       react-dev-utils: 12.0.1_eslint@8.34.0+webpack@5.75.0
       react-refresh: 0.11.0
@@ -8554,11 +8555,12 @@ packages:
       - webpack-plugin-serve
     dev: false
 
-  /react/18.2.0:
-    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+  /react/17.0.1:
+    resolution: {integrity: sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
+      object-assign: 4.1.1
     dev: false
 
   /read-cache/1.0.0:
@@ -8863,10 +8865,11 @@ packages:
       xmlchars: 2.2.0
     dev: false
 
-  /scheduler/0.23.0:
-    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
+  /scheduler/0.20.2:
+    resolution: {integrity: sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==}
     dependencies:
       loose-envify: 1.4.0
+      object-assign: 4.1.1
     dev: false
 
   /schema-utils/2.7.0:
@@ -9297,7 +9300,7 @@ packages:
       webpack: 5.75.0
     dev: false
 
-  /styled-components/5.3.6_react-dom@18.2.0+react@18.2.0:
+  /styled-components/5.3.6_react-dom@17.0.1+react@17.0.1:
     resolution: {integrity: sha512-hGTZquGAaTqhGWldX7hhfzjnIYBZ0IXQXkCYdvF1Sq3DsUaLx6+NTHC5Jj1ooM2F68sBiVz3lvhfwQs/S3l6qg==}
     engines: {node: '>=10'}
     requiresBuild: true
@@ -9314,8 +9317,8 @@ packages:
       babel-plugin-styled-components: 2.0.7_styled-components@5.3.6
       css-to-react-native: 3.1.0
       hoist-non-react-statics: 3.3.2
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
+      react: 17.0.1
+      react-dom: 17.0.1_react@17.0.1
       shallowequal: 1.1.0
       supports-color: 5.5.0
     dev: false

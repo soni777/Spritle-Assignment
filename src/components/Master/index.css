@@ -19,16 +19,40 @@
 .questions-container {
   list-style-type: none;
   padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .question {
   font-size: 20px;
   font-weight: 500;
   margin: 5px 0px;
+  border: 1px solid #888;
+  border-radius: 3px;
+  margin: 10px;
+  padding: 5px;
+  width: 500px;
 }
 
 .main-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  width: 100%;
+}
+
+.answers-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ddd;
+  padding: 0px 10px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }

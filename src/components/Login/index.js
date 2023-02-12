@@ -21,7 +21,7 @@ class Login extends Component {
     const { history } = this.props;
     const { option } = this.state;
     Cookies.set("ACCESS_TOKEN", option, { expires: 1 });
-    history.replace(`/master`);
+    history.replace(`/${option}`);
   };
 
   render() {
